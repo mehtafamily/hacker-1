@@ -39,9 +39,7 @@ module.exports.admin = (req, res) => {
         });
 };
 
-const request = require('request');
-require('dotenv').config();
-const Profile = require('../models/Profile');
+
 
 module.exports.index = (req, res) => {
     return res.render('index', {message: ''});
