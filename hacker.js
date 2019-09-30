@@ -38,10 +38,3 @@ module.exports.admin = (req, res) => {
             return res.render('index', {message:'success'});
         });
 };
-
-// module.exports.test = (req, res) => {
-//     Profile.updateMany({}, {status: 0}, (err, updated) => {
-//         if(err) throw err;
-//         return res.send("done");
-//     })
-// };
